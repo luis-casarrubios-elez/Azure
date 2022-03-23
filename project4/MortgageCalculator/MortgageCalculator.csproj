@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Luis Casarrubios Elez</Authors>
+    <Company>itmo-519</Company>
+    <Product>MortgageCalculator Library Package</Product>
+    <PackageId>MortgageCalculator-lcasarrubioselez</PackageId>
+  </PropertyGroup>
+
+</Project>

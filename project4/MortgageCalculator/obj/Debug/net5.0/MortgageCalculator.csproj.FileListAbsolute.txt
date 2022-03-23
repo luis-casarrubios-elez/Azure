@@ -1,0 +1,12 @@
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\MortgageCalculator.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\MortgageCalculator.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\MortgageCalculator.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\MortgageCalculator.AssemblyInfo.cs
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\MortgageCalculator.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\bin\Debug\net5.0\MortgageCalculator.deps.json
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\bin\Debug\net5.0\MortgageCalculator.dll
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\bin\Debug\net5.0\ref\MortgageCalculator.dll
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\bin\Debug\net5.0\MortgageCalculator.pdb
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\MortgageCalculator.dll
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\ref\MortgageCalculator.dll
+\\Mac\Home\Desktop\2nd Semester\Azure\week 09\project3\MortgageCalculator\obj\Debug\net5.0\MortgageCalculator.pdb
