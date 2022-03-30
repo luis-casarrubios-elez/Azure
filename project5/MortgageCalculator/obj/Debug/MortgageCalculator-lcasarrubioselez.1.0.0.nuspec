@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MortgageCalculator-lcasarrubioselez</id>
+    <version>1.0.0</version>
+    <authors>Luis Casarrubios Elez</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="\\Mac\Home\Desktop\2nd Semester\Azure\week 12\project5\MortgageCalculator\bin\Debug\net5.0\MortgageCalculator.dll" target="lib\net5.0\MortgageCalculator.dll" />
+  </files>
+</package>
