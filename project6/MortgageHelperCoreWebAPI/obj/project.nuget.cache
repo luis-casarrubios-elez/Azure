@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZTxrnOYqHJWzeCvYLz5/y8aihv/PB9ugvl8eru57iJa6xxnyS8Pvg8x+tP6uZOnLCLvI/qC2KftrDk1DoV33Eg==",
+  "success": true,
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\2nd Semester\\Azure\\week 14\\project6\\MortgageHelperCoreWebAPI\\MortgageHelperCoreWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\luis\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\luis\\.nuget\\packages\\mortgagecalculator-lcasarrubioselez\\1.0.0\\mortgagecalculator-lcasarrubioselez.1.0.0.nupkg.sha512",
+    "C:\\Users\\luis\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\luis\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\luis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\luis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

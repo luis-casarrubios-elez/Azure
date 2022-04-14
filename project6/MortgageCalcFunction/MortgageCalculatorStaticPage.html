@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Mortgage Calc</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <!-- #1 Get JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        // #2 drops in JQuery $(document.ready)
+
+        var initialSeperatorChar;
+        var endPointURL = "http://localhost:7071/api/MonthlyPayment";
+
+        $(document).ready(function () {
+
+            initialSeperatorChar = endPointURL.toLowerCase().includes("?") ? '&' : '?';
+
+            $("#compute").click(function () {
+
+                var Principal = $("#Principal").val();
+                var Rate = $("#Rate").val();
+                var Years = $("#Years").val();
+
+                var urlWithArgs = encodeURI(`${endPointURL}${initialSeperatorChar}Principal=${Principal}&Rate=${Rate}&Years=${Years}`);
+
+                $("#msg").load(urlWithArgs, function (responseTxt, statusTxt, xhr) {
+                    if (statusTxt == "success")
+                        console.log(statusTxt);
+                    if (statusTxt == "error")
+                        alert("Error: " + xhr.status + ": " + xhr.statusText);
+                });
+
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <h1 class="display-4">Mortgage Calculator</h1>
+        <!-- #3 specify the button-->
+        <div class="form-group">
+            <label>Loan amount</label><br>
+            <input id="Principal" class="form-control" type="text" placeholder="Enter loan amount">
+        </div>
+        <div class="form-group">
+            <label>Interest rate</label><br>
+            <input id="Rate" class="form-control" type="text" placeholder="Enter interest rate">
+        </div>
+        <div class="form-group">
+            <label>Duration in years</label><br>
+            <input id="Years" class="form-control" type="text" placeholder="Enter duration in years">
+        </div>
+        <input id="compute" class="btn btn-primary" type="button" value="Compute">
+        <br>
+        <br>
+        <p id="msg"></p>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © 2022 - project6 - Luis Casarrubios Elez
+        </div>
+    </footer>
+</body>
+</html>

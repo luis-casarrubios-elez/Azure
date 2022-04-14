@@ -1,0 +1,25 @@
+﻿@page
+@model project6.MortgageCalcModel
+@{
+    ViewData["Title"] = "Mortgage Calculator";
+}
+<h1 class="display-4">Mortgage Calculator</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="InputLoan">Loan amount</label>
+        <input asp-for="InputLoan" class="form-control" placeholder="Enter loan amount">
+        <!--input asp-for="InputLoan" type="number" value="" placeholder="Enter loan amount"/-->
+    </div>
+    <div class="form-group">
+        <label asp-for="Interest">Interest</label>
+        <input asp-for="Interest" class="form-control" placeholder="Enter interest">
+        <!--input asp-for="Interest" type="number" value="" placeholder="Enter interest" /-->
+    </div>
+    <div class="form-group">
+        <label asp-for="Duration">Duration</label>
+        <input asp-for="Duration" class="form-control" placeholder="Enter duration">
+        <!--input asp-for="Duration" type="number" value="" placeholder="Enter duration" /-->
+    </div>
+    <button type="submit" class="btn btn-primary">Compute</button>
+</form>
+<p>@Model.MortgageResult</p>
